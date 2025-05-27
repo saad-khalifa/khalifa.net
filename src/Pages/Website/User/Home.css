@@ -1,0 +1,19 @@
+.hand{
+    background-image: url('../../../img/1.png');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.custom-search{
+    color: rgba(0, 0, 0, 0.5);
+}
+.custom-search:focus{
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1) !important;
+    border: rgba(0, 0, 0, 0.1) !important;
+    outline: rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,159 @@
+.headers{
+  height: 100vh;
+  background-image: url(../../img/clement-m-igX2deuD9lc-unsplash.jpg);
+  background-size: contain;
+  z-index: 3;
+}
+.form {
+    --bg-light: #efefef;
+    --bg-dark: #707070;
+    --clr: #58bc82;
+    --clr-alpha: #9c9c9c60;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+    max-width: 300px;
+    border: 2px green solid;
+    padding: 15px 15px;
+    box-shadow: 0 0 30px rgba(0,0,0,0.3);
+    border-radius: 20px 0 20px 0px;
+    -webkit-border-radius: 20px 0 20px 0px;
+    -moz-border-radius: 20px 0 20px 0px;
+    -ms-border-radius: 20px 0 20px 0px;
+    -o-border-radius: 20px 0 20px 0px;
+    background-color: #e5ebeb;
+}
+  
+  .form .input-span {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .form input[type="text"],
+  .form input[type="email"],
+  .form input[type="email"],
+  .form input[type="password"] {
+    border-radius: 0.5rem;
+    padding: 4px 4px;
+    width: 100%;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: var(--clr-alpha);
+    outline: 2px solid var(--bg-dark);
+    box-shadow: 0 0 10px rgb(152, 152, 152) inset;
+    background-color: rgb(251, 251, 251);
+  }
+  
+  .form input[type="email"]:focus,
+  .form input[type="password"]:focus {
+    outline: 2px solid var(--clr);
+  }
+  
+  .label {
+    align-self: flex-start;
+    color: var(--clr);
+    font-weight: 600;
+  }
+  
+  .form .submit {
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    border-radius: 3rem;
+    background-color: var(--bg-dark);
+    color: var(--bg-light);
+    border: none;
+    cursor: pointer;
+    transition: all 300ms;
+    font-weight: 600;
+    font-size: 0.9rem;
+  }
+  
+  .form .submit:hover {
+    background-color: var(--clr);
+    color: var(--bg-dark);
+  }
+  .form span a{
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+  .form span a:hover {
+text-decoration: underline;
+  }
+  .span-register .span-login {
+    text-decoration: none;
+    color: #514949;
+  }
+  
+  .span-register a {
+    color: var(--clr);
+  }
+  .span-login a {
+    color: var(--clr);
+  }
+  .error{
+background-color:#d9caca;
+padding: 8px 15px;
+color: red;
+border-radius: 12px;
+  }
+  .iccon-google{
+    background-image: url('../../img/googlea.jpg');
+    width: 1.5rem;
+    height: 1.5rem;
+    background-size: contain;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.heder-google{
+  width: 184px;
+  height: 42px;
+  background-color: #4285f4;
+  cursor: pointer;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+.heder-google .iccon-google{
+  position: absolute;
+  width: 40px;
+  height: 42px;
+  border-radius:3px ;
+  -webkit-border-radius:3px ;
+  -moz-border-radius:3px ;
+  -ms-border-radius:3px ;
+  -o-border-radius:3px ;
+  background-color: white;
+}
+.heder-google .google-text{
+  float: right;
+  margin: 11px 11px 0 0;
+  color: #fff;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+font-family: "Roboto";
+}
+.form-group{
+  padding-top: 20%;
+  margin-top: -50px;
+}
